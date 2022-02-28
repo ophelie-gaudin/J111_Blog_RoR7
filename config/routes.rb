@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :posts
   # généré automatiquement quand on a tappé rails g controller pages home about
   # get 'pages/about'
 # renvoie à localhost:3000/pages/about 
