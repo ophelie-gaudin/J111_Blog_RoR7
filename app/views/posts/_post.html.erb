@@ -4,6 +4,8 @@
     <%= post.title %>
   </p>
 
+  <small> <%= pluralize(post.views, "vue") %> </small>
+
   <p>
     <strong>Body:</strong>
     <%= post.body %>

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :posts
   # généré automatiquement quand on a tappé rails g controller pages home about
   # get 'pages/about'
